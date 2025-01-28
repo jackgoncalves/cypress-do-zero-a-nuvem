@@ -158,7 +158,6 @@ describe('Central de atendimento ao cliente TAT', () => {
       .should((input) => {
         console.log(input)
         expect(input[0].files[0].name).to.eq('example.json')
-
       })
   })
 
@@ -176,6 +175,5 @@ describe('Central de atendimento ao cliente TAT', () => {
 
     cy.contains('h1', 'CAC TAT - Política de Privacidade').should('be.visible')
   })
-
-
 })
+
